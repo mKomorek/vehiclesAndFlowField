@@ -40,7 +40,6 @@ void keyPressed()
     debugLines = !debugLines;
 }
 
-// Make a new flowfield
 void mousePressed() 
 {
   flowField.createPerlinNoiseField();
